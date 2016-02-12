@@ -1,0 +1,9 @@
+Sami's spaceship crashed on Mars! She sends nn sequential SOS messages to Earth for help. tters in some of the SOS messages are altered by cosmic radiation during transmission. Given the signal received by Earth as a string, SS, determine how many letters of Sami's SOS have been changed by radiation.
+Constraints
+1≤|S|≤991≤|S|≤99
+|S| % 3=0|S| % 3=0
+SS will contain only uppercase English letters.
+
+Output Format
+
+Print the number of letters in Sami's message that were altered by cosmic radiation.
