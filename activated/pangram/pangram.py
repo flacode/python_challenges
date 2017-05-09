@@ -1,6 +1,6 @@
+import string
 def is_pangram(s):
-    letters=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j' ,'k', 'l', 'm', 'n', 'o', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-    for letter in letters:
+    for letter in string.ascii_lowercase:#lower case letters in string.ascii_lowercase
         if letter not in s.lower():
             return False
     return True  
